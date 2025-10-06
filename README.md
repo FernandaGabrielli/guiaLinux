@@ -15,23 +15,26 @@
 - [🎯 Objetivo](#objetivo)
 - [📋 Lista de Comandos](#lista-de-comandos)
   - [🗂️ Sistema de Arquivos](#sistema-de-arquivos)
-  - [👥 Usuários e Permissões](#usuários-e-permissões)
+  - [👥 Usuários e Permissões](#usuarios-e-permissoes)
   - [🔧 Gerenciamento de Sistema](#gerenciamento-de-sistema)
   - [🌐 Rede e Conectividade](#rede-e-conectividade)
-  - [⚡ Desenvolvimento e Utilitários](#desenvolvimento-e-utilitários)
-- [💡 Dicas Práticas](#dicas-práticas)
+  - [⚡ Desenvolvimento e Utilitários](#desenvolvimento-e-utilitarios)
+- [💡 Dicas Práticas](#dicas-praticas)
 - [🤝 Como Contribuir](#como-contribuir)
 
 ---
 
+<a id="objetivo"></a>
 ## 🎯 Objetivo
 
 Este repositório foi desenvolvido como atividade acadêmica para compilar os **comandos essenciais do Linux** utilizados na administração de servidores, seguindo os requisitos específicos da disciplina.
 
 ---
 
+<a id="lista-de-comandos"></a>
 ## 📋 Lista de Comandos
 
+<a id="sistema-de-arquivos"></a>
 ### 🗂️ Sistema de Arquivos
 
 | Comando | Função | Uso Comum |
@@ -52,6 +55,7 @@ Este repositório foi desenvolvido como atividade acadêmica para compilar os **
 | `grep -r` | Busca recursiva | `grep -r "ERROR" /logs` |
 | `locate` | Busca rápida no sistema | `locate nginx.conf` |
 
+<a id="usuarios-e-permissoes"></a>
 ### 👥 Usuários e Permissões
 
 | Comando | Função | Uso Comum |
@@ -69,6 +73,7 @@ Este repositório foi desenvolvido como atividade acadêmica para compilar os **
 | `su - username` | Troca de usuário | `su - deploy` |
 | `passwd -l` | Bloqueia usuário | `passwd -l usuario` |
 
+<a id="gerenciamento-de-sistema"></a>
 ### 🔧 Gerenciamento de Sistema
 
 | Comando | Função | Uso Comum |
@@ -89,6 +94,7 @@ Este repositório foi desenvolvido como atividade acadêmica para compilar os **
 | `uptime` | Tempo ligado | `uptime` |
 | `dmesg` | Mensagens do kernel | `dmesg | tail -20` |
 
+<a id="rede-e-conectividade"></a>
 ### 🌐 Rede e Conectividade
 
 | Comando | Função | Uso Comum |
@@ -109,6 +115,7 @@ Este repositório foi desenvolvido como atividade acadêmica para compilar os **
 | `route -n` | Tabela de roteamento | `route -n` |
 | `iptables -L` | Lista regras firewall | `iptables -L` |
 
+<a id="desenvolvimento-e-utilitarios"></a>
 ### ⚡ Desenvolvimento e Utilitários
 
 | Comando | Função | Uso Comum |
@@ -131,6 +138,7 @@ Este repositório foi desenvolvido como atividade acadêmica para compilar os **
 
 ---
 
+<a id="dicas-praticas"></a>
 ## 💡 Dicas Práticas
 
 ```bash
